@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+    
+    	<!-- Database connection properties - Driver, URL, user, password -->
+        <property name="hibernate.connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
+        <property name="hibernate.connection.url">jdbc:oracle:thin:@192.168.0.100:1521:orcl</property>
+        <property name="hibernate.connection.username">avantia</property>
+        <property name="hibernate.connection.password">avantia</property>
+        <property name="hibernate.default_schema">avantia</property>
+        
+        <!-- org.hibernate.HibernateException: No CurrentSessionContext configured! -->
+        <property name="hibernate.current_session_context_class">thread</property>
+         
+        <!-- Mapping with model class containing annotations -->
+        <mapping class="de.laliluna.examples.Agregadores"  />
+        <mapping class="de.laliluna.examples.Servicios"  />
+        <mapping class="de.laliluna.examples.Pais"  />
+        <mapping class="de.laliluna.examples.Metodos"  />
+        <mapping class="de.laliluna.examples.Parametros"  />
+        <mapping class="de.laliluna.examples.Respuesta"  />
+        <mapping class="de.laliluna.examples.Depuracion_bck"  />
+        <mapping class="de.laliluna.examples.Clientes_Tel"  />
+        
+    </session-factory>
+</hibernate-configuration>

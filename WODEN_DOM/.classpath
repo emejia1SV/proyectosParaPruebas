@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="C:/Users/Edwin/Downloads/woden-1.0M9-dom/lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Edwin/Downloads/woden-1.0M9-dom/lib/woden-ant-1.0M9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Edwin/Downloads/woden-1.0M9-dom/lib/woden-api-1.0M9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Edwin/Downloads/woden-1.0M9-dom/lib/woden-impl-commons-1.0M9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Edwin/Downloads/woden-1.0M9-dom/lib/woden-impl-dom-1.0M9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Edwin/Downloads/woden-1.0M9-dom/lib/woden-qname-1.0M9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Edwin/Downloads/woden-1.0M9-dom/lib/woden-tool-1.0M9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Edwin/Downloads/woden-1.0M9-dom/lib/XmlSchema-1.4.7.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
